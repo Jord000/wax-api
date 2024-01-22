@@ -9,7 +9,7 @@ This repository builds a RESTful API and databases, to allow the WAX music revie
 Clone the project
 
 ```bash
-  git clone https://github.com/royr5/wax-backend.git
+  git clone https://github.com/Jord000/wax-api
 ```
 
 Go to the project directory
@@ -77,7 +77,7 @@ npm run test
 
 ## Frontend Repository
 
-The frontend code for this project can be found in the [wax-frontend repository](https://github.com/royr5/wax-frontend).
+The frontend code for this project can be found in the https://github.com/Jord000/wax-frontend.
 
 ## Authors
 

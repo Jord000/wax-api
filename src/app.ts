@@ -10,10 +10,13 @@ import {
   handlePsqlErrors,
   handleServerErrors,
 } from "./errors";
-import serverless from "serverless-http";
 import searchRouter from "./api/routes/search.router";
+import cors from "cors"
+
 
 const app = express();
+
+app.use(cors())
 
 app.use(express.json());
 
@@ -30,6 +33,5 @@ app.use(handlePsqlErrors);
 app.use(handleCustomError);
 app.use(handleServerErrors);
 
-export const handler = serverless(app);
 
 export default app;
